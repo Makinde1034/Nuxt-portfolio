@@ -109,7 +109,7 @@ export default {
 <style>
 .projectsWrap{
 
-    padding: 100px 200px 50px 200px;
+    padding: 100px 200px 100px 200px;
 }
 
 .projects{
