@@ -3,7 +3,7 @@
 		<div class="home">
 			<img src="../static/photo_2022-04-18_11-51-43.jpg" alt="">
 			<h3>Makinde Tolulope</h3>
-			<p>Hi, I'm a frontend engineer who is passionate about creating interactive, responsive and optimized web applications.I've a good understanding of the software development lifecycle.  My skills include javascript, Reactjs, Vuejs,Nodejs, CSS, SCSS, Html,Git, Github. </p>
+			<p>Hi, I'm a frontend engineer who is passionate about creating interactive, responsive and optimized web applications.I've a good understanding of the software development lifecycle. My skills include javascript, Reactjs, Nuxtjs, Vuejs, Nodejs, CSS, SCSS, Html,Git, Github. </p>
 			<button >
 				<a href="https://portfolio-backend-makinde.herokuapp.com/download-cv">Download resume</a>
 			</button>
