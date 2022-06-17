@@ -78,13 +78,33 @@
                     
                 />
                 <Project 
-                    title="Sterling task"   
+                    title="Typing app"   
                     tools="Reactjs"   
-                    about="Uncompleted project."
-                    site="https://sterlingtask.netlify.app/"
+                    about="Typing test app. Calculates typing speed and accuracy."
+                    site="https://typing-testt.netlify.app/"
+                    frontendrepo="https://github.com/Makinde1034/Typing-test"
                     
                     
                 />
+                 <Project 
+                    title="Pharmacy"   
+                    tools="Nuxtjs"   
+                    about="Drug prescription app."
+                    site="https://pharmacyapp-v2.netlify.app/"
+                    frontendrepo="https://github.com/Makinde1034/phamarcyApp-v2"
+                    
+                    
+                />
+                <Project 
+                    title="Sterling task"   
+                    tools="Nextjs"   
+                    about="Uncompleted project."
+                    site="https://sterlingtask.netlify.app/"
+
+                    
+                    
+                />
+               
             </div>
         </div>   
     </transition>
@@ -130,14 +150,14 @@ export default {
     transition: all 0.3s ease;
     opacity: 1;
     /* transform: translateY(0px); */
-	transform: scale(1);
+	/* transform: scale(1); */
     
 }
 
 .home-enter{
     opacity: 0;
     /* transform: translateY(50px); */
-	transform: scale(0.5);
+	/* transform: scale(0.5); */
     
 }
 
@@ -145,14 +165,14 @@ export default {
 	opacity: 0;
     /* transform: translateY(50px); */
 	transition: all 0.3s ease;
-	transform: scale(0.5);
+	/* transform: scale(0.5); */
 
 }
 
 .home-leave{
 	opacity: 1;
     /* transform: translateY(50px); */
-	transform: scale(0.5);
+	/* transform: scale(0.5); */
 }
 
 @media screen and (max-width:480px) {
