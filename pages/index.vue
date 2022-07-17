@@ -7,7 +7,7 @@
         Hi, I'm a frontend engineer who is passionate about creating
         interactive, responsive and optimized web applications.I've a good
         understanding of the software development lifecycle. My skills include
-        javascript,typescript reactjs, react nataive,  nextjs, nuxtjs, vuejs, nodejs, css, scss,tailwind css Html,Git, Github, Gitlab.
+        Javascript,Typescript, Reactjs, React nataive,  Nextjs, Nuxtjs, Vuejs, Nodejs,Graphql, css, scss,Tailwind css Html,Git, Github, Gitlab.
       </p>
       <button>
         <a href="https://portfolio-backend-makinde.herokuapp.com/download-cv"
