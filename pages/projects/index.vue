@@ -3,6 +3,13 @@
     <div class="projectsWrap">
       <div class="projects">
         <Project
+          title="Transaction history"
+          tools="Nextjs, Typescript, Nodejs, Graphql, Appollo client"
+          about="Transaction list."
+          site="https://makinde-helicarrier.netlify.app/"
+          frontendrepo="https://github.com/Makinde1034/Helicarriers-task"
+        />
+        <Project
           title="Bosshall"
           tools="ReactJs(Typescript), Redux, NodeJs, SCSS, MongoDB"
           about="Video Sharing platform"
@@ -16,6 +23,13 @@
           about="Microblogging platform"
           site="https://naij.netlify.app/"
           frontendrepo="https://github.com/Makinde1034/naij"
+        />
+        <Project
+          title="Qshop"
+          tools="Nextjs, Typescript, React-Redux, Tailwindcss,"
+          about="E-commerce platform."
+          site="https://qshopp.vercel.app/"
+          frontendrepo="https://github.com/Makinde1034/Qshop"
         />
         <Project
           title="Glover-frontend task"
@@ -73,7 +87,7 @@
         />
         <Project
           title="Typing app"
-          tools="Reactjs"
+          tools="Reactjs, Typescript"
           about="Typing test app. Calculates typing speed and accuracy."
           site="https://typing-testt.netlify.app/"
           frontendrepo="https://github.com/Makinde1034/Typing-test"
@@ -97,13 +111,6 @@
           about="A list of most starred gitub repositories with infinite scrolling."
           site="https://githhub-most-starred.netlify.app/"
           frontendrepo="https://github.com/Makinde1034/Vue-infinite-scroll-Composition-api"
-        />
-         <Project
-          title="Transaction history"
-          tools="Nextjs, Nodejs, Graphql, Appollo client"
-          about="Transaction list."
-          site="https://makinde-helicarrier.netlify.app/"
-          frontendrepo="https://github.com/Makinde1034/Helicarriers-task"
         />
       </div>
     </div>
