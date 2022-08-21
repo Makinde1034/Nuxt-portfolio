@@ -1,6 +1,6 @@
 <template>
   <nav class="nav">
-    <nuxt-link to="/"> <h3>Tolulope</h3> </nuxt-link>
+    <nuxt-link to="/"> <h3 class="tolu">Tolulope</h3> </nuxt-link>
 
     <ul>
       <nuxt-link style="marginRight: 30px" to="projects">Projects</nuxt-link>
@@ -37,8 +37,12 @@ export default {
   padding: 0px 20px 0px 20px;
 }
 
+.tolu{
+     font-family: 'Ms Madi', cursive;
+}
+
 .nav h3,a {
-  font-family: 'Ms Madi', cursive;
+ 
   text-decoration: none;
   color: white;
   /* color: #f2de63; */
