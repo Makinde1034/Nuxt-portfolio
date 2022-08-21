@@ -1,6 +1,6 @@
 <template>
   <nav class="nav">
-    <nuxt-link to="/"> <h3 class="tolu">Tolulope</h3> </nuxt-link>
+    <nuxt-link  class="tolu" to="/"> <h3 class="tolu">Tolulope</h3> </nuxt-link>
 
     <ul>
       <nuxt-link style="marginRight: 30px" to="projects">Projects</nuxt-link>
