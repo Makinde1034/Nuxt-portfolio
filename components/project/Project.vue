@@ -4,7 +4,7 @@
         <p class="project__tools">{{tools}}</p>
         <p class="project__about">{{about}}</p>
         <span>
-            <a style="color:#f2de63" :href="site">Site</a>
+            <a style="color:#f2de63;text-decoration: underline;" :href="site">Site</a>
             <a v-if="frontendrepo" :href="frontendrepo">Repo (Frontend)</a>
             <a v-if="backendrepo" :href="backendrepo">Repo (Backend)</a>
         </span>
@@ -63,7 +63,7 @@ export default {
 }
 
 .project:hover{
-    border: 1px solid #f2de63;
+    /* border: 1px solid #f2de63; */
     cursor: pointer;
 }
 
