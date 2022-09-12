@@ -4,7 +4,7 @@
         <p class="project__tools">{{tools}}</p>
         <p class="project__about">{{about}}</p>
         <span>
-            <a :href="site">Site</a>
+            <a style="color:#f2de63" :href="site">Site</a>
             <a v-if="frontendrepo" :href="frontendrepo">Repo (Frontend)</a>
             <a v-if="backendrepo" :href="backendrepo">Repo (Backend)</a>
         </span>
@@ -90,6 +90,10 @@ export default {
     font-size: 12px;
     color: white;
     
+}
+
+#site{
+    color: #f2de63;
 }
 
 @media screen and (max-width:768px)  {
