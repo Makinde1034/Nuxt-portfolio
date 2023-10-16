@@ -4,7 +4,7 @@
 
     <ul>
       <nuxt-link style="marginRight: 30px" to="projects">Projects</nuxt-link>
-      <a href="https://www.linkedin.com/in/tolu-makinde-20a886108/">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/tolulope-makinde-20a886108/">LinkedIn</a>
     </ul>
   </nav>
 </template>

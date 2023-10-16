@@ -3,26 +3,23 @@
     <div class="projectsWrap">
       <div class="projects">
         <Project
-          title="Transaction history"
-          tools="Nextjs, Typescript, Nodejs, Graphql, Appollo client"
-          about="Transaction list."
-          site="https://makinde-helicarrier.netlify.app/"
-          frontendrepo="https://github.com/Makinde1034/Helicarriers-task"
+          title="Inverse"
+          tools="Nextjs, Typescript, Redux, Cypress, Etherjs."
+          about="Inverse allows creators to easily launch a digital collectible."
+          site="https://www.inverse.wtf/"
         />
         <Project
-          title="Bosshall"
-          tools="ReactJs(Typescript), Redux, NodeJs, SCSS, MongoDB"
-          about="Video Sharing platform"
-          frontendrepo="https://github.com/Makinde1034/Bosshall-frontend"
-          backendrepo="https://github.com/Makinde1034/bosshall-backend"
-          site="https://bosshall.netlify.app/"
+          title="Abacus (Mobile and web)."
+          tools="React native, Nextjs, Typescript, Cypress, RTK query, Redux. "
+          about="Abacus helps users better manage  money by unifying banking, investment and crypto accounts into a single, secure app."
+          site="https://www.trustabacus.com/"
         />
         <Project
-          title="Naijchat"
-          tools="ReactJs, NodeJs MongoDB, Socket io"
-          about="Microblogging platform"
-          site="https://naij.netlify.app/"
-          frontendrepo="https://github.com/Makinde1034/naij"
+          title="Rise."
+          tools="React native, React-query, Typescript. "
+          about="Simple assets investment app built with React native."
+          site="https://www.trustabacus.com/"
+          frontendrepo="https://github.com/Makinde1034/risevest-assessment"
         />
         <Project
           title="Qshop"
@@ -32,19 +29,11 @@
           frontendrepo="https://github.com/Makinde1034/Qshop"
         />
         <Project
-          title="Glover-frontend task"
+          title="Bookly"
           tools="VueJs, VueX, scss, "
-          about="Glover frontend engineer assessment"
+          about="Event booking app"
           site="https://makinde-glover-task.netlify.app/"
           frontendrepo="https://github.com/Makinde1034/Glover-takehome-test"
-        />
-        <Project
-          title="Pencil"
-          tools="VueJs, VueX, scss, MogoDB, NodeJs "
-          about="Knowledge sharing platform"
-          site="https://pencill.netlify.app/"
-          frontendrepo="https://github.com/Makinde1034/Pencil"
-          backendrepo="https://github.com/Makinde1034/pencil-backend"
         />
         <Project
           title="Photohome"
@@ -53,31 +42,7 @@
           site="https://photohome.netlify.app/"
           frontendrepo="https://github.com/Makinde1034/Photo-home"
         />
-        <Project
-          title="Vaultdefi"
-          tools="ReactJs(Typscript), Apexchart, Redux css, Etherjs"
-          about="Decentralised application that allows users to save different ethereum tokens and get a reward"
-          site="https://vaultdefi.app/"
-        />
-        <Project
-          title="Kpk-store"
-          tools="VueJs"
-          about="E-commerce website"
-          site="https://kpk-store.netlify.app/"
-        />
-        <Project
-          title="Form-plus task"
-          tools="Reactjs(Typescript), scss, Redux"
-          about="Formplus frontend assessment test."
-          site="https://makinde-formplus-task.netlify.app/"
-          frontendrepo="https://github.com/Makinde1034/Fromplus-task"
-        />
-        <Project
-          title="Pacavel"
-          tools="Reactjs, html,css,javascript"
-          about="Software development agency website."
-          site="https://pacavel.herokuapp.com/"
-        />
+
         <Project
           title="Bejamas-shopping task"
           tools="Reactjs"
@@ -91,26 +56,6 @@
           about="Typing test app. Calculates typing speed and accuracy."
           site="https://typing-testt.netlify.app/"
           frontendrepo="https://github.com/Makinde1034/Typing-test"
-        />
-        <Project
-          title="Pharmacy"
-          tools="Nuxtjs"
-          about="Drug prescription app."
-          site="https://pharmacyapp-v2.netlify.app/"
-          frontendrepo="https://github.com/Makinde1034/phamarcyApp-v2"
-        />
-        <Project
-          title="Sterling task"
-          tools="Nextjs"
-          about="Uncompleted project."
-          site="https://sterlingtask.netlify.app/"
-        />
-        <Project
-          title="Github-most-starred"
-          tools="Vue3, composition API"
-          about="A list of most starred gitub repositories with infinite scrolling."
-          site="https://githhub-most-starred.netlify.app/"
-          frontendrepo="https://github.com/Makinde1034/Vue-infinite-scroll-Composition-api"
         />
       </div>
     </div>
@@ -149,6 +94,7 @@ export default {
   border: 1px solid white;
   border-radius: 5px;
 }
+
 
 /* transition classes */
 

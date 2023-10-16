@@ -4,15 +4,18 @@
       <img src="../static/photo_2022-04-18_11-51-43.jpg" alt="" />
       <h3>Makinde Tolulope</h3>
       <p>
-        Hi, I'm a frontend engineer who is passionate about creating
-        interactive, responsive and optimized web applications.I've a good
-        understanding of the software development lifecycle. My skills include
-        Javascript,Typescript, Reactjs, React nataive,  Nextjs, Nuxtjs, Vuejs, Nodejs,Graphql, css, scss,Tailwind css Html,Git, Github, Gitlab. I'm presently exploring Golang for server-side development
+        Hi, I'm a software developer with experience building client facing
+        software based on reusable patterns. I adhere to strict coding
+        standards, conduct thorough testing, and implement best practices. I
+        enjoy working with Typescript, Reactjs, Vuejs, React native and Golang.
+        I also like exploring new programming languages and frameworks. I
+        presently work at a fintech company that creates innovative solutions to
+        transform the way people engage with finance.
       </p>
-      <button>
-        <a href="https://portfolio-backend-makinde.herokuapp.com/download-cv"
-          >Download resume</a
-        >
+      <button @click="downloadMe">
+        
+          Download resume
+        
       </button>
     </div>
   </transition>
@@ -31,13 +34,23 @@ export default {
       title: this.content,
       meta: [
         {
-          hid: 'description',
-          name: 'description',
+          hid: 'Makinde Tolulope',
+          name: 'Makinde Tolulope ',
           content: this.content,
         },
       ],
     }
   },
+  methods: {
+    downloadMe() {
+      const link = document.createElement('a')
+      link.href = '/Makinde-tolulope-cv.pdf'
+      link.download = 'Makinde-cv.pdf'
+      link.target = '_blank'
+      link.click()
+    },
+  },
+
 }
 </script>
 
@@ -85,14 +98,14 @@ body {
 .home p {
   font-family: 'Work Sans', sans-serif;
   text-align: center;
-  width: 30%;
+  width: 40%;
   line-height: 25px;
   font-size: 14px;
 }
 
 .home button {
-  padding: 10px 15px;
-  margin-top: 10px;
+  padding: 15px 15px;
+  margin-top: 15px;
   border: 1px solid #f2de63;
   background: none;
   color: white;
